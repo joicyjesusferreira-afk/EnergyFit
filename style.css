@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  background-color: #032529;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+header {
+  text-align: center;
+  padding: 30px;
+}
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  color: #b6ff4d;
+}
+header p {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #d1d5db;
+}
+main h2{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 28px;
+  color: #b6ff4d;
+}
+.pricing-card {
+  background-color: #123b40;
+  padding: 25px;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 280px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+.pricing-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+.pricing-card h3 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  color: #b6ff4d;
+  text-align: center;
+}
+.pricing-card p {
+  text-align: center; 
+}
+
+.pricing-card li {
+  font-size: 15px;
+  margin-bottom: 12px;
+}
+.premium-plan {
+  border: 2px solid #b6ff4d;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(182, 255, 77, 0.4);
+  transition: transform 0.3s ease;
+}
+.premium-plan:hover {
+  transform: scale(1.10);
+}
+.pro-plan:hover {
+  transform: scale(1.05);
+}
+.start-plan:hover {
+  transform: scale(1.05);
+}
+.pro-plan {
+  border: 2px solid #A349A4;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(163, 73, 164, 0.4);
+  transition: transform 0.3s ease;
+}
+.start-plan {
+  border: 2px solid #A349A4;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(163, 73, 164, 0.4);
+  transition: transform 0.3s ease;
+}
+.plan-button {
+  display: block;
+  background-color: #b6ff4d;
+  color: #032529;
+  text-align: center;
+  padding: 14px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: auto;
+}
+
+.plan-button:hover {
+  background-color: #d4ff91;
+}
+footer {
+  text-align: center;
+  background-color: #021c1f;
+  color: #d1d5db;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+.pricing-card ul {
+  flex-grow: 1;
+}
